@@ -1,0 +1,26 @@
+<script type = "text/javascript">
+  var linkTag = document.createElement("link");
+      linkTag.rel = "stylesheet";
+      linkTag.type = "text/css";
+
+    if (document.cookie.split(';').some(function(item) {
+      return item.trim().indexOf('themeName=') == 0
+    })) {
+    
+  var themeValue = document.cookie
+    .split('; ')
+    .find(row => row.startsWith('themeName'))
+    .split('=')[1];
+
+    if (themeValue && themeValue === "light") {
+        linkTag.href = "CSS FILE PLACEHOLDER (DEFAULT THEME)";
+        document.getElementsByTagName("head")[0].appendChild(linkTag);
+  } else {
+        linkTag.href = "CSS FILE PLACEHOLDER (DARK THEME)";
+        document.getElementsByTagName("head")[0].appendChild(linkTag);
+      }
+  } else {
+        linkTag.href = "CSS FILE PLACEHOLDER (DEFAULT THEME)";
+        document.getElementsByTagName("head")[0].appendChild(linkTag)
+     }
+</script>
