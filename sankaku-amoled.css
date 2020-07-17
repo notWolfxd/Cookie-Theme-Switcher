@@ -1915,7 +1915,7 @@ body {
     margin: 0.1em 0.25em 0.1em 45%;
     padding: 2px 6px;
     font-weight: bold;
-    border: 1px solid #FF761C;
+    border: 1px solid #222;
     color: #DDD;
   }
   
@@ -1925,6 +1925,6 @@ body {
     margin: 0.1em 0 0.1em 0%;
     padding: 2px 6px;
     font-weight: bold;
-    border: 1px solid #FF761C;
+    border: 1px solid #222;
     color: #DDD;
   }
