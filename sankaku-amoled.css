@@ -27,7 +27,7 @@ body {
   }
   
   logo {
-  margin-left: 2em;
+    margin-left: 2em;
   }
   
   a:link {
@@ -71,13 +71,21 @@ body {
   }
   
   div.spoiler > p {
-  display: inline-block;
-  background-color: #EEE;
-  color: #EEE;
+    display: inline-block;
+    background-color: #EEE;
+    color: #EEE;
   }
   
   div.spoiler > p:hover {
-  color: black;
+    color: black;
+  }
+
+  div.spoiler > p > a {
+    color: #EEE
+  }
+
+  div.spoiler > p:hover > a {
+    color: #FF761C
   }
   
   ::selection { background: #ffcc89; color: #222; }
