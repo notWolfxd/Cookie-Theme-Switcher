@@ -29,6 +29,10 @@ body {
   logo {
     margin-left: 2em;
   }
+
+  #defaultlogo.hide {
+    display: none;
+  }
   
   a:link {
     color: #FF761C;
@@ -801,13 +805,14 @@ body {
   }
   
   div#headerlogo {
-  max-height:140px;
+    max-height:140px;
   }
 
-  div#headerlogo > a > img#logo {
-    background: url(//cs.sankakucomplex.com/amoledlogo.png) no-repeat;
+  div#headerlogo > a > img#amoledlogo {
     float: left;
-    padding: 16px 0px 0px 20px;
+    margin: 16px 0px 0px 20px;
+    width: 392px;
+    height: 100px;
   }
   
   div#header #site-title {
