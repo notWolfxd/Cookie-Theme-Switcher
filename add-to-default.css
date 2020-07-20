@@ -11,3 +11,14 @@
   div.spoiler > p:hover > a {
     color: #FF761C;
   }
+
+  #amoledlogo.hide {
+    display: none;
+  }
+
+  div#headerlogo > a > img#defaultlogo {
+    float: left;
+    margin: 16px 0px 0px 20px;
+    width: 392px;
+    height: 100px;
+  }
