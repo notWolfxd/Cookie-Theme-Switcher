@@ -8,15 +8,8 @@
     color: #FF761C;
   }
   
-/* Modify in Dark CSS file (this part already exists, just find and replace with this) */
+/* Modify in Dark CSS file (this part already exists, just find and add whats in the {} to it) */
 
   #advanced_search {
-    background-color: #111;
-    padding-top: 0.5px;
-    margin: -1.0px -1px -0.5px -1px;
-  }
-  
-  #advanced_search fieldset {
-    border: 1px solid #FF761C;
-    background-color: #222;
+    margin-bottom: 0px;
   }
