@@ -1,0 +1,22 @@
+/* Add to Light CSS file (spoiler fix) */
+
+  div.spoiler > p > a  {
+    color: #EEE;
+  }
+
+  div.spoiler > p:hover > a {
+    color: #FF761C;
+  }
+  
+/* Modify in Dark CSS file (this part already exists, just find and replace with this) */
+
+  #advanced_search {
+    background-color: #111;
+    padding-top: 2px;
+    margin: -2.5px -1px -0.5px -1px;
+  }
+  
+  #advanced_search fieldset {
+    border: 1px solid #FF761C;
+    background-color: #222;
+  }
