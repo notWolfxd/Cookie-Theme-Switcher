@@ -51,7 +51,7 @@ body {
   }
   
   a:hover {
-    color: darkcyan;
+    color: #ff8a3e;
     text-decoration: none;
   }
   
@@ -1144,7 +1144,7 @@ body {
   }
   
   div.sidebar {
-    border: 1px solid #FF761C;
+    border: 1px solid #2f2f30;
     width: 20%;
     padding-left: 1em;
     margin-right: 1em;
@@ -1868,8 +1868,8 @@ body {
   }
   
   div#header ul#navbar li:hover ul li:hover {
-    border: 1px solid #36454F;
-    border-bottom: 2px solid #36454F;
+    border: 1px solid #2F2F20;
+    border-bottom: 2px solid #2F2F20;
     background-color: #3B3C36;
   }
   
