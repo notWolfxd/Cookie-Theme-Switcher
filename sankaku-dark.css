@@ -23,7 +23,7 @@ body {
     margin: 0;
     background-color: #1B1B1B;
     min-width: 940px;
-    color: white;
+    color: #e6e6e6;
   }
   
   logo {
@@ -51,7 +51,7 @@ body {
   }
   
   a:hover {
-    color: #ff8a3e;
+    color: #ffa971;
     text-decoration: none;
   }
   
@@ -65,8 +65,8 @@ body {
   }
   
   a.spoiler {
-    color: white;
-    background: white;
+    color: #e6e6e6;
+    background: #e6e6e6;
     cursor: text;
   }
   
@@ -327,7 +327,7 @@ body {
   }
   
   table.form th {
-    color: white;
+    color: #e6e6e6;
     background: #2f2f30;
     white-space: normal;
     padding-right: 1em;
@@ -339,7 +339,7 @@ body {
   }
   
   table.highlightable th {
-    color: white;
+    color: #e6e6e6;
   }
   
   table.highlightable td {
@@ -374,7 +374,7 @@ body {
   }
   
   table tbody tr {
-    color: white;
+    color: #e6e6e6;
     font-weight: bold;
   }
   
@@ -618,7 +618,7 @@ body {
   div.auto_complete {
     width: 350px;
     background: #2f2f30;
-    color: white;
+    color: #e6e6e6;
   }
   
   div.auto_complete ul {
@@ -683,7 +683,7 @@ body {
   
   div#comment-list > div.post > div.col2 > div.header > div > span.info {
     margin-right: 1em;
-    color: white;
+    color: #e6e6e6;
   }
   
   div#comment-list > div.post > div.col2 > div.header > div.tags > span {
@@ -692,7 +692,7 @@ body {
   }
 
   div.tags {
-    color: white;
+    color: #e6e6e6;
   }
   
   .no-comments {
@@ -975,7 +975,7 @@ body {
   }
   
   div#paginator a.arrow:hover {
-    background: white;
+    background: #e6e6e6;
     color: #9093FF;
   }
   
@@ -1066,7 +1066,7 @@ body {
     float: left;
     margin: 1em 0 1em 1em;
     overflow: hidden;
-    color: white
+    color: #e6e6e6
   }
   
   div#post-view > div#right-col > div#edit {
@@ -1110,7 +1110,7 @@ body {
     padding-top: 1em;
     border-top: 2px solid #DDD;
     width: 60em;
-    color: white;
+    color: #e6e6e6;
   }
   
   div.response-list > div.comment > div.author {
@@ -1127,7 +1127,7 @@ body {
   }
   
   div.response-list > div.comment > div.content  .body.bad {
-    color: #DDD;
+    color: #999;
   }
   
   div.response-list > div.comment > div.content > div.footer {
@@ -1304,7 +1304,7 @@ body {
   }
   
   div.wiki > h2.title {
-    color: #fff;
+    color: #e6e6e6;
     margin-bottom: 0.5em;
     padding-left: 1em;
   }
@@ -1515,7 +1515,7 @@ body {
     float:left;
     overflow:hidden;
     padding-top: 5px;
-    color: white;
+    color: #e6e6e6;
   }
   #autosuggest span:nth-child(2) {
     width:5em;
@@ -1543,7 +1543,7 @@ body {
     font-family: Meiryo,Hiragino Kaku Gothic Pro W3,Arial,Helvetica Neue,sans-serif;
     font-size: 100%;
     background: #1B1B1B;
-    color: white;
+    color: #e6e6e6;
   }
 
   input#tags > autocomplete {
@@ -1868,8 +1868,8 @@ body {
   }
   
   div#header ul#navbar li:hover ul li:hover {
-    border: 1px solid #2F2F20;
-    border-bottom: 2px solid #2F2F20;
+    border: 1px solid #3B3C36;
+    border-bottom: 2px solid #3B3C36;
     background-color: #3B3C36;
   }
   
