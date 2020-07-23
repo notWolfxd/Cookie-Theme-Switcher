@@ -1,0 +1,49 @@
+/* Replace the proper fields with these below. Lines 10-20 are new lines, so add those anywhere. */
+
+div#header ul#navbar li.lang-select {
+    font-size: 90%;
+    color: #888;
+    padding-bottom: 4px;
+    padding-top: 7px;
+}
+
+div#header ul#navbar li.lang-select .theme-button-light {
+    padding: 5px;
+}
+
+div#header ul#navbar li.lang-select .theme-button-dark {
+    padding: 5px;
+}
+
+div#header ul#navbar li.lang-select .theme-button-selected {
+    padding: 4px;
+}
+
+.theme-button-light {
+  background-image:url(//cs.sankakucomplex.com/images/light.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+  margin-left: 10px;
+  border: none;
+  padding-top: 2px;
+}
+
+.theme-button-dark {
+  background-image:url(//cs.sankakucomplex.com/images/dark.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+  border: none;
+  padding: 2px;
+}
+
+.theme-button-selected {
+  border: solid 0.5px #FF761C;
+}
