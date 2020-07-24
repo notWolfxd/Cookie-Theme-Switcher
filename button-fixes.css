@@ -1,22 +1,23 @@
-/* Replace the proper fields with these below. Lines 10-20 are new lines, so add those anywhere. */
-
 div#header ul#navbar li.lang-select {
     font-size: 90%;
     color: #e6e6e6;
-    padding-bottom: 4px;
-    padding-top: 7px;
+    padding-right: 60px;
 }
 
 div#header ul#navbar li.lang-select .theme-button-light {
-    padding: 5px;
+    position: absolute;
+    margin-top: 2px;
 }
 
 div#header ul#navbar li.lang-select .theme-button-dark {
-    padding: 5px;
+    position: absolute;
+    margin-left: 32px;
+    margin-top: 2px;
 }
 
 div#header ul#navbar li.lang-select .theme-button-selected {
-    padding: 4px;
+    position: absolute;
+    margin-top: 2px;
 }
 
 .theme-button-light {
@@ -29,7 +30,6 @@ div#header ul#navbar li.lang-select .theme-button-selected {
   width: 19px;
   margin-left: 10px;
   border: none;
-  padding-top: 2px;
 }
 
 .theme-button-dark {
@@ -41,9 +41,4 @@ div#header ul#navbar li.lang-select .theme-button-selected {
   height: 19px;
   width: 19px;
   border: none;
-  padding: 2px;
-}
-
-.theme-button-selected {
-  border: solid 0.5px #FF761C;
 }
