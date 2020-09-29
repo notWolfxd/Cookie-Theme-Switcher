@@ -1,46 +1,19 @@
 body, body.en, body.ja {
-  padding: 0;
-  margin: 0;
   background-color: #1B1B1B;
-  min-width: 940px;
   color: #e6e6e6;
-}
-
-.blacklisted-tags-disabled {
-  color: #AAA !important;
 }
 
 a:hover {
   color: #ffa971;
-  text-decoration: none;
 }
 
 a.spoiler {
   color: #e6e6e6;
   background: #e6e6e6;
-  cursor: text;
 }
 
 a.spoiler:hover {
   color: black;
-}
-
-div.spoiler > p {
-  display: inline-block;
-  background-color: #EEE;
-  color: #EEE;
-}
-
-div.spoiler > p:hover {
-  color: black;
-}
-
-div.spoiler > p > a {
-  color: #EEE
-}
-
-div.spoiler > p:hover > a {
-  color: #FF761C
 }
 
 h2 {
