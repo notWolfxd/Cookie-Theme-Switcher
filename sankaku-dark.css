@@ -285,7 +285,11 @@ div.response-list > div.comment {
 }
 
 div.response-list > div.comment > div.content  .body.bad {
-  color: #999;
+  color: #555;
+}
+
+div.response-list > div.comment > div.content  .body.bad a {
+  color: #555;
 }
 
 div.sidebar {
@@ -434,4 +438,8 @@ div#header ul#navbar li:hover > ul {
 
 .theme-button-selected {
   border: solid 0.5px #FF761C;
+}
+
+blockquote {
+  color: #DDD;
 }
