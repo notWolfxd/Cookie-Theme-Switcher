@@ -261,6 +261,7 @@ strong.divider {
   color: gray;
 }
 
+/* Table elements */
 table {
   margin-bottom: 1em;
   border: 2px solid #DDD;
@@ -347,6 +348,18 @@ table tr.pending-tag:nth-child(odd) {
 
 table tr.pending-tag:nth-child(even) {
   background: lavender;
+}
+
+[action^="/tag_"]:not([action*="translation"]) .highlightable td:nth-child(2) > a,[action^="/tag_"]:not([action*="translation"])  .highlightable td:nth-child(3) > a {
+    word-break: break-all;
+}
+
+[action^="/tag_"]:not([action*="translation"]) .highlightable thead th:nth-of-type(2),[action^="/tag_"]:not([action*="translation"]) .highlightable thead th:nth-of-type(3) {
+    width: 25%;
+}
+
+[action^="/tag_"]:not([action*="translation"]) .highlightable thead th:nth-of-type(5) {
+    width: unset;
 }
 
 textarea {
