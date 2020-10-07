@@ -1,28 +1,16 @@
-body {
+/* Body elements */
+body, body.en, body.ja, body.bg, body.cn {
   font-family: Meiryo,Hiragino Kaku Gothic Pro W3,Arial,Helvetica Neue,sans-serif;
   font-size: 74%;
-}
-
-body.en {
-  font-family: Meiryo,Hiragino Kaku Gothic Pro W3,Arial,Helvetica Neue,sans-serif;
-  font-size: 74%;
-}
-
-body.ja {
-  font-family: Meiryo,Hiragino Kaku Gothic Pro W3,Arial,Helvetica Neue,sans-serif;
-  font-size: 74%;
+  padding: 0;
+  margin: 0;
+  background: white;
+  min-width: 940px;
 }
 
 body, body.en, body.ja, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
   margin: 0;
   padding: 0;
-}
-
-body, body.en, body.ja {
-  padding: 0;
-  margin: 0;
-  background: white;
-  min-width: 940px;
 }
 
 logo {
@@ -59,32 +47,8 @@ a.last-page {
   color: #666;
 }
 
-a.spoiler {
-  color: black;
-  background: black;
-  cursor: text;
-}
-
-a.spoiler:hover {
-  color: white;
-}
-
-div.spoiler > p {
-  display: inline-block;
-  background-color: #EEE;
-  color: #EEE;
-}
-
-div.spoiler > p:hover {
-color: black;
-}
-
-div.spoiler > p > a  {
-  color: #EEE;
-}
-
-div.spoiler > p:hover > a {
-  color: #FF761C;
+li.flag-and-reason-count {
+  list-style: none;
 }
 
 ::selection { background: #ffcc89; color: #222; }
@@ -94,11 +58,6 @@ addr {
   display: block;
   margin-left: 2em;
   font-weight: bold;
-}
-
-code {
-  font-family: monospace;
-  font-size: 1.2em;
 }
 
 dd { font-weight: bold; margin: 0 0 0 15px; padding: 0; display: block; }
@@ -1000,7 +959,7 @@ div#post-view > div#right-col > div > div#note-container > div.note-body {
 }
 
 div#post-view > div#right-col > div > div#note-container > div.note-body > p.tn {
-  font-size: 0.8em;
+  font-size: 0.5em;
   color: gray;
 }
 
@@ -1955,6 +1914,7 @@ div#header ul#navbar li.lang-select .theme-button-selected {
   border: solid 0.5px #FF761C;
 }
 
+/* DText Items */
 /* DText - Quote */
 blockquote {
   color: #000;
@@ -1966,4 +1926,47 @@ blockquote {
   margin-left: 12.5px;
   border-radius: 5px;
   background: #DDD;
+}
+
+/* DText - Spoilers */
+a.spoiler {
+  color: black;
+  background: black;
+  cursor: text;
+}
+
+a.spoiler:hover {
+  color: white;
+}
+
+div.spoiler > p {
+  display: inline-block;
+  background-color: #EEE;
+  color: #EEE;
+}
+
+div.spoiler > p:hover {
+color: black;
+}
+
+div.spoiler > p > a  {
+  color: #EEE;
+}
+
+div.spoiler > p:hover > a {
+  color: #FF761C;
+}
+
+/* DText - Code */
+code {
+  font-family: monospace;
+  font-size: 1.2em;
+}
+
+/* DText - Misc */
+p.center {
+  text-align: center;
+}
+p.tn {
+  font-size: 0.5em;
 }
