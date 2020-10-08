@@ -8,7 +8,7 @@ body, body.en, body.ja, body.bg, body.cn {
   min-width: 940px;
 }
 
-body, body.en, body.ja, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
+body, body.en, body.ja, body.cn, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
   margin: 0;
   padding: 0;
 }
