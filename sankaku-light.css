@@ -770,6 +770,10 @@ div#header ul#navbar li.lang-select {
   padding-right: 60px;
 }
 
+#lang-sel {
+  border: 1px solid #FF761C
+}
+
 div#header ul#navbar {
   padding: 5px 20px 2px 10px;
   margin-bottom: -1px;
