@@ -407,7 +407,7 @@ div#header ul#navbar li:hover ul li { border: 1px solid #2f2f30 }
 div#header ul#navbar li:hover {
   background-color: #2f2f30;
   border: 1px solid #444;
-  border-bottom: 1px solid #2f2f30;
+  border-bottom: 2px solid #2f2f30;
 }
 
 div#header ul#navbar li:hover ul li:hover {
