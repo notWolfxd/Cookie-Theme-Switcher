@@ -770,15 +770,9 @@ div#header ul#navbar li.lang-select {
   padding-right: 60px;
 }
 
-
-div#header ul#navbar li.lang-select a.active{
-  font-size: 110%;
-  text-decoration: underline;
-}
-
 div#header ul#navbar {
   padding: 5px 20px 2px 10px;
-  margin: 0;
+  margin-bottom: -1px;
 }
 
 div#header ul#navbar li {
