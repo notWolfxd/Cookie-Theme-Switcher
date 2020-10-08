@@ -211,8 +211,8 @@ div#header {
 
 div#header ul#navbar li.lang-select {
   color: #e6e6e6;
-  padding-top: 5px;
-  padding-bottom: 4px;
+  padding-top: 6px;
+  padding-bottom: 3px;
 }
 
 div#header ul#navbar li.lang-select:hover {
@@ -223,6 +223,8 @@ div#header ul#navbar li.lang-select:hover {
 div#header ul#navbar li {
   border: 1px solid #222;
   border-bottom: none;
+  padding-bottom: 1px;
+  padding-top: 1px;
 }
 
 div#header ul#navbar li.current-page {
@@ -424,7 +426,7 @@ div#header ul#subnavbar {
 
 div#header ul#navbar li:hover > ul {
   background: #2f2f30;
-  height: 4.0em;
+  height: 3.0em;
 }
 
 #recommendations-paginator>span.recommended-prev {
