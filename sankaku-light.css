@@ -1130,6 +1130,29 @@ div#static-more > div > ul > li {
   margin: 0;
 }
 
+kbd.key {
+  background: #DDD;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 13px;
+}
+
+div#static-keyboard_shortcuts > div {
+  float: left;
+  width: 25%;
+  font-size: 12.5px;
+}
+
+div#static-keyboard_shortcuts > div > ul {
+  margin-top: 2em;
+}
+
+div#static-keyboard_shortcuts > div > ul > li {
+  list-style-type: none;
+  margin: 10px;
+}
+
 div.status-notice {
   border: 2px solid #DDD;
   padding: 0.5em 0.5em 0.5em 0.5em;
