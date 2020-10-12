@@ -1,5 +1,5 @@
 /* Body elements */
-body, body.en, body.ja, body.bg, body.cn {
+body {
   font-family: Meiryo,Hiragino Kaku Gothic Pro W3,Arial,Helvetica Neue,sans-serif;
   font-size: 74%;
   padding: 0;
@@ -8,7 +8,7 @@ body, body.en, body.ja, body.bg, body.cn {
   min-width: 940px;
 }
 
-body, body.en, body.ja, body.cn, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
+body, div, h1, h2, h3, h4, h5, h6, p, ul, li, dd, dt {
   margin: 0;
   padding: 0;
 }
@@ -486,6 +486,42 @@ a.tag-type-artist {
 .tag-type-operator > a:hover {
   color: #C2C2C2;
 }
+
+a.user-level-unactivated { color: #98FB98; }
+a.user-level-unactivated:hover { color: #CBFFCB; }
+.user-tooltip-badge-unactivated { background: #98FB98; }
+
+a.user-level-blocked { color: #71543e; }
+a.user-level-blocked:hover { color: #A48771; }
+.user-tooltip-badge-blocked { background: #71543e; }
+
+a.user-level-member { color: #9ff21c; }
+a.user-level-member:hover { color: #D2FF4F; }
+.user-tooltip-badge-member { background: #9ff21c; }
+
+a.user-level-privileged { color: #ea7dab; }
+a.user-level-privileged:hover { color: #FFB0DE; }
+.user-tooltip-badge-privileged { background: #ea7dab; }
+
+a.user-level-contributor { color: #6494f1; }
+a.user-level-contributor:hover { color: #97C7FF; }
+.user-tooltip-badge-contributor { background: #6494f1; }
+
+a.user-level-janitor { color: #048eaf; }
+a.user-level-janitor:hover { color: #37C1E2; }
+.user-tooltip-badge-janitor { background: #048eaf; }
+
+a.user-level-mod { color: #e20258; }
+a.user-level-mod:hover { color: #FF358B; }
+.user-tooltip-badge-mod { background: #e20258; }
+
+a.user-level-system_user { color: #9f21e5; }
+a.user-level-system_user:hover { color: #D254FF; }
+.user-tooltip-badge-system_user { background: #9f21e5; }
+
+a.user-level-admin { color: #e9161a; }
+a.user-level-admin:hover { color: #FF494D; }
+.user-tooltip-badge-admin { background: #e9161a; }
 
 .tag-count {
   color: #999;
