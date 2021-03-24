@@ -1998,6 +1998,22 @@ p.tn {
 }
 
 /* DText formatting helper */
+.preformat {
+  background-size: 22.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  height: 32.5px;
+  width: 32.5px;
+  border: 0.5px solid #FF761C;
+  border-radius: 3px;
+  background-color: #DDD;
+}
+
+.preformat:hover {
+  background-color: #EEE;
+}
+
 #preformatted {
   border: 2px solid #FF761C;
   border-radius: 3px;
