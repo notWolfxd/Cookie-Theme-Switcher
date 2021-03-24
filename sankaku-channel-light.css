@@ -207,11 +207,7 @@ label {
   white-space: nowrap;
 }
 
-li {
-  margin-left: 1em;
-}
-
-ol {
+li, ol {
   margin-left: 1em;
 }
 
@@ -219,11 +215,7 @@ p {
   margin-bottom: 1em;
 }
 
-span.author {
-  color: #AAA;
-}
-
-span.date {
+span.author, span.date, span.post-count {
   color: #AAA;
 }
 
@@ -233,10 +225,6 @@ span.locked-topic {
 
 span.informational {
   cursor: help;
-}
-
-span.post-count {
-  color: #AAA;
 }
 
 span.thumb {
@@ -290,11 +278,7 @@ table.highlightable th {
   color: #333;
 }
 
-table.highlightable td {
-  margin: 0;
-}
-
-table.highlightable th {
+table.highlightable td, table.highlightable th {
   margin: 0;
 }
 
@@ -304,7 +288,7 @@ table thead {
   font-weight: bold;
 }
 
-table tfoot {
+table tfoot, table tbody tr:nth-child(even), table tr.highlight, textarea:focus {
   background: #FAFAFA;
 }
 
@@ -326,20 +310,12 @@ table tbody tr {
   font-weight: bold;
 }
 
-table tbody tr:nth-child(even) {
-  background: #FAFAFA;
-}
-
 table tr.good {
   background: rgb(230, 255, 230);
 }
 
 table tr.selected {
   background: #ffcc89 !important; /* override highlightable */
-}
-
-table tr.highlight {
-  background: #FAFAFA;
 }
 
 table tr.pending-tag:nth-child(odd) {
@@ -370,10 +346,6 @@ textarea {
 
 textarea.no-block {
   display: inline;
-}
-
-textarea:focus {
-  background: #FAFAFA;
 }
 
 ul {
@@ -422,106 +394,77 @@ ul.link-page > li {
 }
 
 /* onhover = 40% lighter */
-.tag-type-artist > a,
-a.tag-type-artist {
-  color: #A00;
-}
+.tag-type-artist > a, .tag-type-artist > .tag-extra-info > a { color: #A00; }
+.tag-type-artist > a:hover, .tag-type-artist > .tag-extra-info > a:hover { color: #C66666; }
 
-.tag-type-artist > a:hover {
-  color: #C66666;
-}
+.tag-type-studio > a, .tag-type-studio > .tag-extra-info > a { color: #FF2DCD; }
+.tag-type-studio > a:hover, .tag-type-studio > .tag-extra-info > a:hover { color: #FF93FF; }
 
-.tag-type-studio > a {
-  color: #FF2DCD;
-}
+.tag-type-character > a, .tag-type-character > .tag-extra-info > a { color: #0A0; }
+.tag-type-character > a:hover, .tag-type-character > .tag-extra-info > a:hover { color: #66CC66; }
 
-.tag-type-studio > a:hover {
-  color: #FF93FF;
-}
+.tag-type-copyright > a, .tag-type-copyright > .tag-extra-info > a { color: #A0A; }
+.tag-type-copyright > a:hover, .tag-type-copyright > .tag-extra-info > a:hover { color: #CC66CC; }
 
-.tag-type-character > a {
-  color: #0A0;
-}
+.tag-type-medium > a, .tag-type-medium > .tag-extra-info > a { color: #2585BB; }
+.tag-type-medium > a:hover, .tag-type-medium > .tag-extra-info > a:hover { color: #7CB6D6; }
 
-.tag-type-character > a:hover {
-  color: #66CC66;
-}
+.tag-type-genre > a, .tag-type-genre > .tag-extra-info > a { color: #80461B; }
+.tag-type-genre > a:hover, .tag-type-genre > .tag-extra-info > a:hover { color: #E6AC81; }
 
-.tag-type-copyright > a {
-  color: #A0A;
-}
+.tag-type-meta > a, .tag-type-meta > .tag-extra-info > a { color: #5C00FF; }
+.tag-type-meta > a:hover, .tag-type-meta > .tag-extra-info > a:hover { color: #9D66FF; }
 
-.tag-type-copyright > a:hover {
-  color: #CC66CC;
-}
+.tag-type-species > a, .tag-type-species > .tag-extra-info > a { color: #AAAA00; }
+.tag-type-species > a:hover, .tag-type-species > .tag-extra-info > a:hover { color: #CCCC66; }
 
-.tag-type-medium > a {
-  color: #2585BB;
-}
+.tag-type-fashion > a, , .tag-type-fashion > .tag-extra-info > a { color: #FF0066; }
+.tag-type-fashion > a:hover, .tag-type-fashion > .tag-extra-info > a:hover { color: #FF66CC; }
 
-.tag-type-medium > a:hover {
-  color: #7CB6D6;
-}
+.tag-type-special_objects > a, , .tag-type-special_objects > .tag-extra-info > a { color: #4B0082; }
+.tag-type-special_objects > a:hover, , .tag-type-special_objects > .tag-extra-info > a:hover { color: #B166E8; }
 
-.tag-type-genre > a {
-  color: #80461B;
-}
+.tag-type-appearance > a, .tag-type-appearance > .tag-extra-info > a { color: #76EE00; }
+.tag-type-appearance > a:hover, .tag-type-appearance > .tag-extra-info > a:hover { color: #DCFF66; }
 
-.tag-type-genre > a:hover {
-  color: #E6AC81;
-}
+.tag-type-operator a, .tag-type-operator > .tag-extra-info > a { color: #999; }
+.tag-type-operator > a:hover, .tag-type-operator > .tag-extra-info > a:hover { color: #C2C2C2; }
 
-.tag-type-meta > a {
-  color: #5C00FF;
-}
+.user-level-Unactivated > a { color: #98FB98; }
+.user-level-Unactivated:hover > a { color: #CBFFCB; }
+.user-tooltip-badge-Unactivated { background: #98FB98; }
 
-.tag-type-meta > a:hover {
-  color: #9D66FF;
-}
+.user-level-Blocked > a { color: #71543e; }
+.user-level-Blocked:hover > a { color: #A48771; }
+.user-tooltip-badge-Blocked { background: #71543e; }
 
-.tag-type-operator a {
-  color: #999;
-}
+.user-level-Member > a { color: #9ff21c; }
+.user-level-Member:hover > a { color: #D2FF4F; }
+.user-tooltip-badge-Member { background: #9ff21c; }
 
-.tag-type-operator > a:hover {
-  color: #C2C2C2;
-}
+.user-level-Privileged > a { color: #ea7dab; }
+.user-level-Privileged:hover > a { color: #FFB0DE; }
+.user-tooltip-badge-Privileged { background: #ea7dab; }
 
-a.user-level-unactivated { color: #98FB98; }
-a.user-level-unactivated:hover { color: #CBFFCB; }
-.user-tooltip-badge-unactivated { background: #98FB98; }
+.user-level-Contributor > a{ color: #6494f1; }
+.user-level-Contributor:hover > a { color: #97C7FF; }
+.user-tooltip-badge-Contributor { background: #6494f1; }
 
-a.user-level-blocked { color: #71543e; }
-a.user-level-blocked:hover { color: #A48771; }
-.user-tooltip-badge-blocked { background: #71543e; }
+.user-level-Janitor > a { color: #048eaf; }
+.user-level-Janitor:hover > { color: #37C1E2; }
+.user-tooltip-badge-Janitor { background: #048eaf; }
 
-a.user-level-member { color: #9ff21c; }
-a.user-level-member:hover { color: #D2FF4F; }
-.user-tooltip-badge-member { background: #9ff21c; }
+.user-level-Mod > a { color: #e20258; }
+.user-level-Mod:hover > a { color: #FF358B; }
+.user-tooltip-badge-Mod { background: #e20258; }
 
-a.user-level-privileged { color: #ea7dab; }
-a.user-level-privileged:hover { color: #FFB0DE; }
-.user-tooltip-badge-privileged { background: #ea7dab; }
+.user-level-System_User > a { color: #9f21e5; }
+.user-level-System_User:hover > a { color: #D254FF; }
+.user-tooltip-badge-System_User { background: #9f21e5; }
 
-a.user-level-contributor { color: #6494f1; }
-a.user-level-contributor:hover { color: #97C7FF; }
-.user-tooltip-badge-contributor { background: #6494f1; }
-
-a.user-level-janitor { color: #048eaf; }
-a.user-level-janitor:hover { color: #37C1E2; }
-.user-tooltip-badge-janitor { background: #048eaf; }
-
-a.user-level-mod { color: #e20258; }
-a.user-level-mod:hover { color: #FF358B; }
-.user-tooltip-badge-mod { background: #e20258; }
-
-a.user-level-system_user { color: #9f21e5; }
-a.user-level-system_user:hover { color: #D254FF; }
-.user-tooltip-badge-system_user { background: #9f21e5; }
-
-a.user-level-admin { color: #e9161a; }
-a.user-level-admin:hover { color: #FF494D; }
-.user-tooltip-badge-admin { background: #e9161a; }
+.user-level-Admin > a { color: #e9161a; }
+.user-level-Admin:hover > a { color: #FF494D; }
+.user-tooltip-badge-Admin { background: #e9161a; }
 
 .tag-count {
   color: #999;
@@ -539,17 +482,8 @@ a.user-level-admin:hover { color: #FF494D; }
   font-size: 0.8em;
 }
 
-.added-tags {
-  color: #00cc00;
-}
-
-.removed-tags {
-  color: #ff0000;
-}
-
-.unchanged-tags {
-  font-size: 0.8em;
-}
+.added-tags { color: #00cc00; }
+.removed-tags { color: #ff0000; }
 
 .history-search-row {
   clear: left;
@@ -1357,7 +1291,7 @@ div#wiki-diff ins {
   width: 170px;
   height: 34px;
   position: relative;
-  background: url(//cs.sankakucomplex.com/images/star_rating.png) left center repeat-x;
+  background: url(//s.sankakucomplex.com/images/star_rating.png) left center repeat-x;
 }
 
 .unit-rating li {
@@ -1377,7 +1311,7 @@ div#wiki-diff ins {
   padding: 0px;
 }
 .unit-rating li a:hover {
-  background: url(//cs.sankakucomplex.com/images/star_rating.png) left bottom;
+  background: url(//s.sankakucomplex.com/images/star_rating.png) left bottom;
   z-index: 2;
   left: 0px;
 }
@@ -1394,7 +1328,7 @@ div#wiki-diff ins {
 
 /* Current rating display */
 .unit-rating li {
-  background: url(//cs.sankakucomplex.com/images/star_rating.png) left top;
+  background: url(//s.sankakucomplex.com/images/star_rating.png) left top;
   height: 34px;
   display: block;
   text-indent: -9000px;
@@ -1411,7 +1345,7 @@ div#wiki-diff ins {
   display:block;
   background-position:left top;
   cursor: pointer;
-  background-image:url(//cs.sankakucomplex.com/images/hearts.png);
+  background-image:url(//s.sankakucomplex.com/images/hearts.png);
 }
 .favoriteIcon:hover{
   background-position:left center;
@@ -1423,7 +1357,7 @@ div#wiki-diff ins {
   background-position:left center;
 }
 #add-to-favs, #remove-from-favs {
-  background-image:url(//cs.sankakucomplex.com/images/heartbg.png);
+  background-image:url(//s.sankakucomplex.com/images/heartbg.png);
   background-repeat:no-repeat;
 }
 
@@ -1451,7 +1385,7 @@ div#wiki-diff ins {
   border: 1px solid #DDD;
   margin: 0 1em 2em 1em;
   text-align: center;
-  background: url(//cs.sankakucomplex.com/images/crown.png) center 0em no-repeat;
+  background: url(//s.sankakucomplex.com/images/crown.png) center 0em no-repeat;
   background-size: 50px;
 }
 
@@ -1593,14 +1527,12 @@ div#wiki-diff ins {
 
 div.scad {
   width: 109%;
-  float: left;
   margin: 0 0 0.5em 1em;
   overflow: hidden;
 }
 
 div.scad-i {
   width: 109%;
-  float: left;
   margin: 0 0 0.5em 1em;
   overflow: hidden;
 }
@@ -1682,7 +1614,7 @@ div.sidebar {
 }
 
 .ranking-top-spot {
-  background-image: url(//cs.sankakucomplex.com/images/crown.png);
+  background-image: url(//s.sankakucomplex.com/images/crown.png);
   background-repeat: no-repeat;
   background-position: center 0%;
   background-size: 8%;
@@ -1788,7 +1720,7 @@ body.ja .ranking-item-more {
 
 .message-user {
   float: left;
-  margin: 3em 1em 100% 1em;
+  margin: 3em 1em 20% 1em;
   text-align: center;
   color: #666;
   font-weight: bold;
@@ -1894,9 +1826,9 @@ div#header ul#navbar li:hover>ul {
   width: 100%;
   font-size: 0.6em;
   padding-top: 0.5em;
-  /*border: 1px solid #DDD;*/
   border-bottom: none;
-  margin-top:4px;
+  margin-top:0px;
+  padding-bottom:18px;
 }
 
 div#header ul#navbar li:hover>ul {
@@ -1958,7 +1890,7 @@ div#header ul#navbar li.lang-select .theme-button-selected {
 }
 
 .theme-button-light {
-  background-image:url(//cs.sankakucomplex.com/images/light.png);
+  background-image:url(//s.sankakucomplex.com/images/light.png);
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1970,7 +1902,7 @@ div#header ul#navbar li.lang-select .theme-button-selected {
 }
 
 .theme-button-dark {
-  background-image:url(//cs.sankakucomplex.com/images/dark.png);
+  background-image:url(//s.sankakucomplex.com/images/dark.png);
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: center;
@@ -2039,4 +1971,28 @@ p.center {
 }
 p.tn {
   font-size: 0.5em;
+}
+
+/* Video thumbnail icons */
+.video-icon::before {
+  content: "▶";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  color: #FF761C;
+  background: rgba(0,0,0,.5);
+  margin: 2px;
+}
+
+.sound-icon::before {
+  content: "🔊";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  font-size: 25px;
+  color: transparent;  
+  text-shadow: 0 0 0 #FF761C;
+  background: rgba(0,0,0,.5);
+  margin: 2px;
 }
