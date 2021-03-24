@@ -1996,3 +1996,25 @@ p.tn {
   background: rgba(0,0,0,.5);
   margin: 2px;
 }
+
+/* DText formatting helper */
+#preformatted {
+  border: 2px solid #FF761C;
+  border-radius: 3px;
+  width: 427.25px;
+}
+
+.format-row {
+  padding-left: 10px;
+}
+
+#dtext-bold { background-image: url(//s.sankakucomplex.com/images/bold-icon.png); }
+#dtext-emphasise { background-image: url(//s.sankakucomplex.com/images/emphasise-icon.png); }
+#dtext-underline { background-image: url(//s.sankakucomplex.com/images/underline-icon.png); }
+#dtext-strikethrough { background-image: url(//s.sankakucomplex.com/images/strikethrough-icon.png); }
+#dtext-quote { background-image: url(//s.sankakucomplex.com/images/quote-icon.png); }
+#dtext-code { background-image: url(//s.sankakucomplex.com/images/code-icon.png); }
+#dtext-spoiler { background-image: url(//s.sankakucomplex.com/images/spoiler-icon.png); }
+#dtext-wiki_page { background-image: url(//s.sankakucomplex.com/images/wiki-icon.png); }
+#dtext-tag_search { background-image: url(//s.sankakucomplex.com/images/tag-icon.png); }
+#dtext-linked_text { background-image: url(//s.sankakucomplex.com/images/link-icon.png); }
