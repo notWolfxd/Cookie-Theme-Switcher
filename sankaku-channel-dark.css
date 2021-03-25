@@ -450,14 +450,9 @@ blockquote {
 
 /* DText formatting helper */
 .preformat {
-  background-size: 22.5px;
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
-  height: 32.5px;
-  width: 32.5px;
   border: 0.5px solid #FF761C;
-  border-radius: 3px;
+  border-radius: 1px;
   background-color: #333;
 }
 
