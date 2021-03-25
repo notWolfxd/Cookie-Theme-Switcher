@@ -737,7 +737,7 @@ div#header #site-title {
 div#header ul#navbar li.lang-select {
   font-size: 90%;
   color: #666;
-  padding-right: 60px;
+  padding-right: 82.5px;
 }
 
 #lang-sel {
@@ -1884,31 +1884,21 @@ div#header ul#navbar li.lang-select .theme-button-dark {
     margin-top: 2px;
 }
 
+div#header ul#navbar li.lang-select .theme-button-amoled {
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 2px;
+}
+
 div#header ul#navbar li.lang-select .theme-button-selected {
     position: absolute;
     margin-top: 2px;
 }
 
-.theme-button-light {
-  background-image:url(//s.sankakucomplex.com/images/light.png);
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
+.theme-button-light, .theme-button-dark, .theme-button-amoled {
   cursor: pointer;
-  height: 19px;
-  width: 19px;
   margin-left: 10px;
-  border: none;
-}
-
-.theme-button-dark {
-  background-image:url(//s.sankakucomplex.com/images/dark.png);
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  height: 19px;
-  width: 19px;
+  padding: 1.25px 1px 1.25px 1px;
   border: none;
 }
 
@@ -1997,7 +1987,6 @@ p.tn {
   margin: 2px;
 }
 
-/* DText formatting helper */
 /* DText formatting helper */
 .preformat {
   cursor: pointer;
