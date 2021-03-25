@@ -1998,16 +1998,13 @@ p.tn {
 }
 
 /* DText formatting helper */
+/* DText formatting helper */
 .preformat {
-  background-size: 22.5px;
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
-  height: 32.5px;
-  width: 32.5px;
   border: 0.5px solid #FF761C;
   border-radius: 3px;
   background-color: #DDD;
+  margin-top: 3px;
 }
 
 .preformat:hover {
@@ -2017,20 +2014,9 @@ p.tn {
 #preformatted {
   border: 2px solid #FF761C;
   border-radius: 3px;
-  width: 427.25px;
+  width: 402.5px;
 }
 
-.format-row {
+.preformat-row {
   padding-left: 10px;
 }
-
-#dtext-bold { background-image: url(//s.sankakucomplex.com/images/bold-icon.png); }
-#dtext-emphasise { background-image: url(//s.sankakucomplex.com/images/emphasise-icon.png); }
-#dtext-underline { background-image: url(//s.sankakucomplex.com/images/underline-icon.png); }
-#dtext-strikethrough { background-image: url(//s.sankakucomplex.com/images/strikethrough-icon.png); }
-#dtext-quote { background-image: url(//s.sankakucomplex.com/images/quote-icon.png); }
-#dtext-code { background-image: url(//s.sankakucomplex.com/images/code-icon.png); }
-#dtext-spoiler { background-image: url(//s.sankakucomplex.com/images/spoiler-icon.png); }
-#dtext-wiki_page { background-image: url(//s.sankakucomplex.com/images/wiki-icon.png); }
-#dtext-tag_search { background-image: url(//s.sankakucomplex.com/images/tag-icon.png); }
-#dtext-linked_text { background-image: url(//s.sankakucomplex.com/images/link-icon.png); }
