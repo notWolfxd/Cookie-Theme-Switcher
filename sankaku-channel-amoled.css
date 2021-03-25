@@ -451,9 +451,6 @@ blockquote {
 /* DText preformatting helper */
 .preformat {
   cursor: pointer;
-  height: 27.125px;
-  width: 30.125px;
-  padding: 0px;
   border: 0.5px solid #FF761C;
   border-radius: 1px;
   background-color: #111;
