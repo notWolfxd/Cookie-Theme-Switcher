@@ -75,12 +75,6 @@ h2 {
   font-size: 2.0em;
 }
 
-h2.wiki-title {
-  color: #666;
-  margin-bottom: 0.25em;
-  margin-left: 0.5em;
-}
-
 h3 {
   font-size: 1.6em;
 }
@@ -1214,6 +1208,11 @@ div#user-record > table > tbody > tr.negative-record {
   background: #FEE;
 }
 
+/* Wiki */
+#wiki-excerpt {
+  overflow-x: hidden;
+}
+
 #wiki-form {
   margin-left: 1em;
 }
@@ -1277,6 +1276,21 @@ div#wiki-diff del {
 
 div#wiki-diff ins {
   background-color: #8f8;
+}
+
+h2.wiki-title {
+  color: #666;
+  margin-bottom: 0.25em;
+  margin-left: 0.5em;
+}
+
+#wiki-view ul {
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+#wiki-view {
+  padding-left: 5px;
 }
 
 /* rating */
@@ -1519,10 +1533,6 @@ div#wiki-diff ins {
 
 #quick-edit {
   margin-bottom: 1em;
-}
-
-#wiki-excerpt {
-  overflow-x: hidden;
 }
 
 div.scad {
