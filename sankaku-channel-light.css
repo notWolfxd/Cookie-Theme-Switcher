@@ -320,6 +320,8 @@ table tr.pending-tag:nth-child(even) {
   background: lavender;
 }
 
+/* Tag related tables */
+
 [action^="/tag_"]:not([action*="translation"]) .highlightable td:nth-child(2) > a,[action^="/tag_"]:not([action*="translation"])  .highlightable td:nth-child(3) > a {
     word-break: break-all;
 }
@@ -330,6 +332,26 @@ table tr.pending-tag:nth-child(even) {
 
 [action^="/tag_"]:not([action*="translation"]) .highlightable thead th:nth-of-type(5) {
     width: unset;
+}
+
+tbody#tag-subscription-body td:nth-child(1) {
+  width: 1%;
+}
+
+tbody#tag-subscription-body td:nth-child(2) {
+  width: 10%
+}
+
+tbody#tag-subscription-body td:nth-child(3) {
+  width: 80%
+}
+
+tbody#tag-subscription-body td:nth-child(4) {
+  width: 9%
+}
+
+tbody#tag-subscription-body input {
+  width: 95%
 }
 
 textarea {
