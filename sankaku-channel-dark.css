@@ -340,6 +340,10 @@ div#wiki-diff ins {
   font-family: Tahoma;
 }
 
+#wiki-view code strong, #preview code strong {
+  font-family: monospace;
+}
+
 #duplicate {
   border: 2px solid purple;
 }
