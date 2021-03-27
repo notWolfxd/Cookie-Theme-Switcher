@@ -342,6 +342,7 @@ div#wiki-diff ins {
 
 #wiki-view code strong, #preview code strong {
   font-family: monospace;
+  color: #e6e6e6;
 }
 
 #duplicate {
